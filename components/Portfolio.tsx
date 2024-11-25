@@ -1,3 +1,7 @@
+# components/Portfolio.tsx
+
+"use client"; // Add this at the top of the file
+
 import React, { useState } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { 
@@ -14,6 +18,8 @@ import {
   Linkedin,
   ExternalLink
 } from 'lucide-react';
+
+// Rest of your Portfolio component code remains the same...
 
 const Portfolio = () => {
   const [activeSection, setActiveSection] = useState('about');
